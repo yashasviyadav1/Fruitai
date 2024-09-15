@@ -1,0 +1,81 @@
+.main-container{
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.login-svg{
+    width: 90%;
+}
+.left-section{
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+.right-section{
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fruitai-logo{
+    height: 40px;
+}
+
+.welcome-text{
+    font-size: 30px;
+    font-weight: 100;
+
+}
+.special-text{
+    font-weight: normal;
+    color: #a31a42;
+}
+
+.login-container{
+    height: 50%;
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.login-content-container{
+    /* border: 3px solid red; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.login-text{
+    font-size: 20px;
+}
+.submit-button{
+    width: 100%;
+    background-color:  #a31a42;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 5px;
+}
+
+.submit-button:hover{
+    background-color: rgb(66, 66, 66);
+    transition: 300ms background-color ease-in-out;
+} 
+
+.register-text{
+    color: rgb(230, 30, 30);
+    text-decoration: underline;
+    cursor: pointer;
+} 

@@ -1,0 +1,65 @@
+.translate-container {
+    height: 100vh;
+    text-align: center;
+    background-color: gray;
+    background-image: url('../assets/pictures/home-background2.jpg');
+    display: flex;
+    flex-direction: column;
+}
+
+.translate-navbar{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    opacity: 85%;
+}
+
+.translate-logo{
+    height: 100%;
+}
+
+.translate-content-container{
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.translate-content-inner-container{
+    width: 400px;
+    background-color: white;
+    opacity: 85%;
+    border-radius: 10px;
+
+}
+
+#google_translate_element {
+    margin-top: 20px;
+}
+
+
+.translate-buttons-container{
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.translate-buttons {
+    padding: 10px 20px;
+    font-weight: 600;
+    background-color: #3C3C43;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.translate-buttons:hover{
+    background-color: #252526;
+    transition: 300ms ease;
+}

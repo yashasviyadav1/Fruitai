@@ -1,0 +1,128 @@
+.faq-container{
+    height: 100vh;
+    width: 100%;
+    background-color: #f6f8f9;
+    padding: 20px;
+    /* border: 2px solid rgb(61, 8, 8); */
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-and-title{
+    display: flex;
+    height: 50px;
+}
+.faqpage-logo{
+    height: 100%;
+}
+.faq-header-section {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+/* .faq-header{
+    border: 2px solid red;
+    height: 10%;
+    width: 100%;
+    display: flex;
+} */
+.faqpage-logo{
+    height: 100%;
+    /* width: 8%; */
+    /* border: 2px solid black; */
+}
+
+.faq-header-title{
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.add-faq-button{
+    background-color: #3c3c43;
+    color: white;
+    height: 80%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.add-faq-button:hover{
+    background-color: #46575a;
+    transition: 300ms ease;
+}
+
+.faq-search-container{
+    margin-top: 10px;
+    height: 50px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: left;
+    background-color: #ebeded;
+    gap: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.faq-search-icon{
+    height: 100%;
+    /* border: 2px solid black; */
+    font-size: 25px;
+}
+
+.faq-search-container > Input{
+    width: 100%;
+    border: 2px solid black;
+    background-color: #ebeded;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+}
+
+.faq-cards-container{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+
+
+.scroller {
+    --scrollbar-color-thumb: rgb(194, 191, 192);
+    --scrollbar-color-track: rgb(255, 255, 255);
+    --scrollbar-width: thin;
+    --scrollbar-width-legacy: 10px;
+}
+
+/* Modern browsers with `scrollbar-*` support */
+@supports (scrollbar-width: auto) {
+    .scroller {
+        scrollbar-color: var(--scrollbar-color-thumb) var(--scrollbar-color-track);
+        scrollbar-width: var(--scrollbar-width);
+    }
+}
+
+/* Legacy browsers with `::-webkit-scrollbar-*` support */
+@supports selector(::-webkit-scrollbar) {
+    .scroller::-webkit-scrollbar-thumb {
+        background: var(--scrollbar-color-thumb);
+    }
+    .scroller::-webkit-scrollbar-track {
+        background: var(--scrollbar-color-track);
+    }
+    .scroller::-webkit-scrollbar {
+        max-width: var(--scrollbar-width-legacy);
+        max-height: var(--scrollbar-width-legacy);
+    }
+}
