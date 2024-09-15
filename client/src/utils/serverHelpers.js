@@ -1,8 +1,8 @@
 // these functions help frontend to connect with backend 
 // import { BACKEND_BASE_URL } from "../config";
 
-const backendBaseUrl = 'http://localhost:5000';
-// const backendBaseUrl = BACKEND_BASE_URL;
+// const backendBaseUrl = 'http://localhost:5000';
+const backendBaseUrl = 'https://fruit-ai-web-backend.vercel.app';
 
 export const makeUnauthenticatedPOSTRequest = async (route, body) => { // route will be API route  
 
