@@ -103,7 +103,7 @@ const Faq = () => {
                         />
                     ))
                 ) : (
-                    <div>No FAQs found</div>
+                    <div>FAQ Cards Loading...</div>
                 )}
                 {/* <FaqCard
                     title={'Apple'}

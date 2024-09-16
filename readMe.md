@@ -1,6 +1,6 @@
  ## Fruit.ai 🍏
 
-deployed at : 
+deployed at : https://fruit-ai-web.vercel.app/
 
 A full stack web application to discover the best fruits for your health goals with powerfull chatbot trained on our custom data and tons of Frequently asked questions on fruits.
 
